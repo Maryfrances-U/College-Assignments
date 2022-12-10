@@ -1,0 +1,19 @@
+<!-- HW 06 -->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Edit Profile</title>
+	</head>
+
+	<body>
+		<form method="POST">
+			{{form.hidden_tag()}}
+			{{form.fname.label}} {{ form.fname() }} <br>
+			{{form.lname.label}} {{ form.lname() }} <br>
+			{{form.email.label}} {{ form.email() }} <br>
+			{{form.dob.label}} {{ form.dob() }} <br>
+			{{form.submit()}}
+		</form>
+	</body>
+</html>

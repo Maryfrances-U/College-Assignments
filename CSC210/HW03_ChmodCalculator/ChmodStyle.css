@@ -1,0 +1,36 @@
+body {
+	background-color: #E0FFFF;
+	font-family: "Comic Sans MS";
+}
+
+#header {
+	background-color: #ADDFFF;
+	color: white;
+	text-align: center;
+	font: ;
+}
+
+#page {
+	width: 1200px;
+	margin: auto;
+}
+
+#calculator{
+	background-color: white;
+}
+
+#owner{
+	float;
+}
+
+#group{
+	float;
+}
+
+#public{
+	float;
+}
+
+#linper{
+	text-align: center;
+}

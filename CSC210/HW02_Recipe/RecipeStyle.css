@@ -1,0 +1,60 @@
+body {
+	background-color: pink;
+	font-family: "Comic Sans MS";
+}
+
+#page {
+	width: 1200px;
+	margin: auto;
+}
+
+#header {
+	background-color: pink;
+	color: white;
+	text-align: center;
+	font: ;
+}
+
+#main	{
+	padding: 10px;
+}
+
+#sidebar	{
+	padding: 10px;
+	background-color: white;
+	width: 200px;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	color: #e91e63;
+}
+
+#info	{
+	padding: 10px;
+	background-color: white;
+	width: 900px;
+	float: right;
+}
+
+#BlogTitle	{
+	color: #e91e63;
+	font-style: bold;
+	font-family: "Papyrus"; /*This font has a 70% chance of showing up on Windows and 92% for Macs*/
+}
+
+.picture {
+	display: block;
+	margin:auto;
+}
+
+.caption {
+	text-align: center;
+	font-family: serif;
+	font-style: italic;
+}
+
+#footer {
+	padding: 10px;
+}

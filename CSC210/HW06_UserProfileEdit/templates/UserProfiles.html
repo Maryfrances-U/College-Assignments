@@ -1,0 +1,42 @@
+<!-- HW 06 -->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title> {{user.lname}} profile </title>
+		<style>
+			*{text-align: center}
+			h1{
+				color: purple;
+			}
+			h2{
+				color: pink;
+			}
+			ul {
+				list-style-type: none;	/* To get rid of bullet points*/
+			}
+		</style>
+	</head>
+
+
+	<body>
+		<h1>{{user.fname}} {{user.lname}}</h1>
+		<p>Email Address: {{user.email}}</p>
+		<p>Date of Birth: {{user.dob}}</p>
+		<h2> Friends </h2>
+
+		<ul id = "list">
+			{% for friend in friends %}
+				<!--<li> <a href = "{{friends[friend]}}"> {{friend.fname}} </a> </li> -->
+				<li> <a href = {{friend}} > {{ friends[friend] }} </a> </li>
+			{% endfor %}
+		</ul>
+
+
+		<a href = "/update/users/{{user.uid}}">
+			<button type="button"> Edit Profile </button>
+		</a>
+		
+	</body>
+
+</html>

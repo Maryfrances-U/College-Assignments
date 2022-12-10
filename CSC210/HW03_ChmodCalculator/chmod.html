@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- For this assignment you are required to create a browser-based chmod calculator using HTML/CSS and JavaScript. The calculator will be entirely client-side and run in the browser. You are required to provide 9 checkboxes to the user, one for each permission (owner/group/world -- read/write/execute). As the checkboxes are clicked, numeric (octal) and symbolic representations of the selected permissions should be updated. This should be accomplished by attaching event listeners to the checkboxes and using these functions to modify the DOM. For more information on chmod and a working example see the additional reading section. You may receive extra credit by also allowing the user to enter permissions in their numeric and symbolic representations. When this happens all fields (including checkboxes) should be updated to match the most recently changed input.-->
+	
+
+	<head>
+		<title> Mary's Chmod Calculator</title>
+		<link rel = "stylesheet" type = "text/css" href = "ChmodStyle.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type = "text/javascript" src="ChmodScript.js"></script>
+	</head>
+
+
+	<body>
+		<div id = "page">
+
+			<div id = "header">
+				<h1> Mary's Chmod Calculator </h1>
+			</div>
+
+
+			<div id = "calculator">
+
+
+				<div id="owner">
+					<form>
+						<h2>Owner</h2>
+						<input type = "checkbox" id = "OwnerR" autocomplete="off" >Read<br/>
+						<input type = "checkbox" id = "OwnerW" autocomplete="off" >Write<br/>
+						<input type = "checkbox" id = "OwnerX" autocomplete="off">Execute<br/>
+					</form>
+				</div>
+
+				<div id="group">
+					<form>
+						<h2>Group</h2>
+						<input type = "checkbox" id = "GroupR" autocomplete="off">Read<br/>
+						<input type = "checkbox" id = "GroupW" autocomplete="off">Write<br/>
+						<input type = "checkbox" id = "GroupX" autocomplete="off">Execute<br/>
+					</form>
+				</div>
+
+				<div id="public">
+					<form>
+						<h2>Public</h2>
+						<input type = "checkbox" id = "PublicR" autocomplete="off">Read<br/>
+						<input type = "checkbox" id = "PublicW" autocomplete="off">Write<br/>
+						<input type = "checkbox" id = "PublicX" autocomplete="off">Execute<br/>
+					</form>
+				</div>
+
+
+			</div> <!-- End of major calculator div-->
+
+
+			<div id="linper">
+					<h2>Linux Permissions</h2> 
+					<output id = "numbers"> 000 </output>
+					<output id = "letters"> --------- </output>
+			</div>
+
+		</div> <!-- End of page div-->
+
+	</body>
+
+
+
+</html>
