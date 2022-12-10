@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Proj5.dir/main.c.o CMakeFiles/Proj5.dir/Boolean.c.o CMakeFiles/Proj5.dir/Circuit.c.o CMakeFiles/Proj5.dir/Gates.c.o  -o Proj5 
