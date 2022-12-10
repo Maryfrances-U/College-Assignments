@@ -1,0 +1,96 @@
+/* Maryfrances Umeora
+   mumeora
+   HW 09
+   Lab Times: TR 11:05-12:20
+   I did not collaborate with anyone on this assignment
+*/
+
+These are my written answers for Q1 and Q2 on the homework.
+
+
+1(a)
+This code is invalid because, on the 7th line, the writer is trying to initialize the variable "i" again.
+"i" has already been initialized in the 3rd line.
+The writer only needs to type "i = j" instead of "int i = j" to fix it.
+
+
+1(b)
+This code has a similar problem.
+As "i" has already been initialized, you need not initalize it again in the for loop.
+
+
+1(c)
+This code is valid.
+First, it prints out the for loop:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Then it prints the static variable i.
+99
+
+
+1(d)
+This code is valid.
+It prints out:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+
+1(e)
+This code is not valid.
+It takes in the parameter "int i" then tries to create another integer value "i" in the for loop.
+
+
+1(f)
+This code is valid.
+It seems to be the corrected form of 1(e)
+It prints:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+
+1(g)
+This code is valid.
+It prints:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+
+
+
+2
+This code outputs:
+0 Hello Hello
+2 Goodbye Goodbye
+4 Whatever Whatever
+
