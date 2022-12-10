@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maryf/Desktop/CSC173/Proj4/src/HashMap.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+LinkedList.h
+/home/maryf/Desktop/CSC173/Proj4/src/LinkedList.h
+
+/home/maryf/Desktop/CSC173/Proj4/src/LinkedList.h
+stdbool.h
+-
+Tuple.h
+/home/maryf/Desktop/CSC173/Proj4/src/Tuple.h
+
+/home/maryf/Desktop/CSC173/Proj4/src/Tuple.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+
+/home/maryf/Desktop/CSC173/Proj4/src/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+HashMap.h
+/home/maryf/Desktop/CSC173/Proj4/src/HashMap.h
+

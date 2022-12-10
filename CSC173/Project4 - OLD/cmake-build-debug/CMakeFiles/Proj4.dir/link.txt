@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Proj4.dir/src/HashMap.c.o CMakeFiles/Proj4.dir/src/LinkedList.c.o CMakeFiles/Proj4.dir/src/main.c.o CMakeFiles/Proj4.dir/src/Tuple.c.o  -o Proj4 
