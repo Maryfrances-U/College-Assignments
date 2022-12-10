@@ -1,3 +1,0 @@
-/home/maryf/Desktop/CSC173/Proj5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/maryf/Desktop/CSC173/Proj5/cmake-build-debug/CMakeFiles/Proj5.dir
-/home/maryf/Desktop/CSC173/Proj5/cmake-build-debug/CMakeFiles/edit_cache.dir
