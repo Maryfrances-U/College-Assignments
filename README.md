@@ -1,5 +1,5 @@
 # College Assignments
-While in college, my learning was facilitated by the many interesting projects I created and worked on in my various projects. These projects range in tech stacks and complexity, but are mostly simple projects with a singular purpose rather than full-blown applications.
+While in college, my learning was facilitated by the many interesting projects I created and worked on in my various classes. These projects vary in tech stacks and complexity, but are mostly simple projects with a singular purpose rather than full-blown applications.
 
 However, I didn't just want to just delete <i>years</i> of work, or leave them sitting in a folder on my computer, never to again see the light of day. So I decided to compile them all here!
 
